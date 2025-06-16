@@ -117,7 +117,7 @@ Amount:7483232,84#7483232,84#
 
 
 
-uploaded_file = st.file_uploader("📄 Upload a .txt or .docx file", type=["txt", "docx"])
+uploaded_file = st.file_uploader("📄 Upload a .txt file", type=["txt", "docx"])
 
 if uploaded_file:
     if uploaded_file.name.endswith(".txt"):
